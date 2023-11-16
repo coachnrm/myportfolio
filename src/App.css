@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.Box {
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  justify-content: center;
+  margin: 10px;
+}
+
+button {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 720px) {
+  .Box{
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+  .Picture {
+    width: 300px;
+    height: 300px
+  }
+}
